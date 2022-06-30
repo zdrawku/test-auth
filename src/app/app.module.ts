@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { MasterViewComponent } from './master-view/master-view.component';
 import { IgxGridModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
+import { MasterView1Component } from './master-view1/master-view1.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MasterViewComponent
+    MasterViewComponent,
+    MasterView1Component
   ],
   imports: [
     BrowserModule,

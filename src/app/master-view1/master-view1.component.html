@@ -1,0 +1,6 @@
+<igx-grid [data]="dataSource3Countries" primaryKey="iso_code" displayDensity="cosy" [allowFiltering]="true" filterMode="excelStyleFilter" class="grid">
+  <igx-column header="iso_code" field="iso_code" dataType="string" [sortable]="true" title="iso_code"></igx-column>
+  <igx-column header="name" field="name" dataType="string" [sortable]="true" title="name"></igx-column>
+  <igx-column header="offline_orders" field="offline_orders" dataType="boolean" [sortable]="true" title="offline_orders"></igx-column>
+  <igx-column header="online_orders" field="online_orders" dataType="boolean" [sortable]="true" title="online_orders"></igx-column>
+</igx-grid>
